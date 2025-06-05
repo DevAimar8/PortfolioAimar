@@ -54,4 +54,10 @@ Este portfolio está en constante evolución. Mi objetivo es seguir documentando
 
 ---
 
+## 📄 Licencia
+Este proyecto está bajo la licencia MIT.
+Puedes usarlo, modificarlo y distribuirlo libremente, siempre mencionando al autor original si decides publicarlo.
+
+---
+
 Gracias por pasarte. ¡Esto es solo el comienzo! 🚀
