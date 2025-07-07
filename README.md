@@ -44,7 +44,7 @@ Este portfolio está en constante evolución. Mi objetivo es seguir documentando
 
 ---
 
-## 📬 Contacto
+## 📬 Contacto 
 
 ¿Quieres conectar, colaborar o simplemente charlar sobre desarrollo?
 
