@@ -49,7 +49,7 @@ Este portfolio está en constante evolución. Mi objetivo es seguir documentando
 ¿Quieres conectar, colaborar o simplemente charlar sobre desarrollo?
 
 - ✉️ Email: [aimaresquetaalbert@gmail.com](mailto:aimaresquetaalbert@gmail.com)
-- 💼 LinkedIn: [Aimar Esqueta Albert](https://www.linkedin.com/in/aimar-esqueta-albert/)
+- 💼 LinkedIn: [Aimar Esqueta Albert](https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302/)
 - 🧑‍💻 GitHub: [@devaimar8](https://github.com/devaimar8)
 
 ---
