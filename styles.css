@@ -189,57 +189,82 @@ section h2 {
 
 /* Proyectos */
 .project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
+  gap: 2.5rem;
+  justify-items: center;
+  max-width: 900px; /* Limitar ancho para mejor alineación */
+  margin: 0 auto; /* Centrar la grid */
+  padding: 0 1rem;
 }
 
 .project-card {
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  width: 300px;
+  background-color: #f9f9f9; /* Un fondo muy claro */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  width: 420px; /* Más ancho para que se vean más grandes */
   overflow: hidden;
   display: flex;
   flex-direction: column;
   text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #222; /* Color oscuro para texto legible */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
 .project-card img {
   width: 100%;
-  height: 200px; /* Tamaño fijo */
-  object-fit: cover; /* Corta la imagen sin deformarla */
+  height: 250px; /* Un poco más alto para mayor impacto */
+  object-fit: cover;
+  border-bottom: 3px solid #0077cc; /* Línea azul para detalle */
 }
 
 .project-card h3 {
-  margin: 1rem 0 0.5rem;
-  font-size: 1.2rem;
+  margin: 1.2rem 0 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #003d66; /* Azul oscuro */
 }
 
 .project-card p {
-  padding: 0 1rem;
-  font-size: 0.95rem;
+  padding: 0 1.5rem;
+  font-size: 1.05rem;
   flex-grow: 1;
+  color: #444; /* Gris oscuro para lectura cómoda */
+  line-height: 1.4;
 }
 
 .project-card a {
-  margin: 1rem;
-  padding: 0.5rem 1rem;
+  margin: 1.5rem 1.5rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   background-color: #0077cc;
-  color: white;
+  color: #fff;
   text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0, 119, 204, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card a:hover {
   background-color: #005fa3;
+  box-shadow: 0 5px 15px rgba(0, 95, 163, 0.7);
+}
+
+/* Responsive para pantallas más pequeñas */
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: 1fr; /* Una columna para móviles */
+  }
+
+  .project-card {
+    width: 90%;
+  }
 }
 
 /* Contacto */
