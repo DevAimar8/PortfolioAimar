@@ -2,7 +2,7 @@
 
 Bienvenido/a a mi portfolio profesional, un espacio donde presento algunos de los proyectos que he desarrollado, mis competencias técnicas y mi evolución como desarrollador y apasionado de la tecnología con propósito.
 
-## 🚀 Sobre mí
+## 🚀 Sobre mí   
 
 Me considero una persona curiosa, creativa y comprometida con el crecimiento constante. Mis intereses principales giran en torno a:
 
