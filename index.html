@@ -2,17 +2,81 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio de Aimar Esqueta</title>
+  <meta http-equiv="Content-Language" content="es" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5"/>
+  <meta name="theme-color" content="#191c26"/>
+  
+  <title>Portfolio de Aimar Esqueta Albert | Full-Stack, DAM, Web, IA y Big Data</title>
+  <meta name="description" content="Portfolio profesional de Aimar Esqueta Albert: desarrollador Full-Stack, DAM, Big Data, IA y web. Experiencia, proyectos, contacto, CV y mucho más.">
+  <meta name="keywords" content="Aimar, Aimar Esqueta, Aimar Esqueta Albert, Portfolio, Portfolio web, Portfolio DAM, Full-Stack, Desarrollador, Programador, Proyectos, Big Data, Inteligencia Artificial, Java, Flutter, Python, GitHub, ideas, tecnología, software, IA, DAM, Desarrollo de Aplicaciones Multiplataforma, Portfolio web ideas, Melilla, Fincamel SL">
+  <meta name="author" content="Aimar Esqueta Albert">
+  <link rel="canonical" href="https://aimar-portfolio.vercel.app/" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:site_name" content="Portfolio de Aimar Esqueta Albert"/>
+  <meta property="og:title" content="Portfolio de Aimar Esqueta Albert | Full-Stack, DAM, Web, IA, Big Data"/>
+  <meta property="og:description" content="Descubre el portfolio de Aimar Esqueta Albert: desarrollador Full-Stack, DAM, IA y Big Data. Proyectos reales, experiencia, contacto y más."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://aimar-portfolio.vercel.app/"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/DevAimar8/UNIP/main/UNIP.png"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@aimar_esqueta"/>
+  <meta name="twitter:title" content="Portfolio de Aimar Esqueta Albert | Full-Stack, DAM, Web, IA"/>
+  <meta name="twitter:description" content="Portfolio con proyectos y contacto de Aimar Esqueta Albert, desarrollador Full-Stack, DAM, Big Data y más."/>
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/DevAimar8/UNIP/main/UNIP.png"/>
+
+  <!-- Accesibilidad y PWA -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Portfolio Aimar Esqueta">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" type="image/svg+xml">
+
+  <!-- Schema.org Microdatos JSON-LD (SEO Avanzado) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aimar Esqueta Albert",
+    "url": "https://aimar-portfolio.vercel.app/",
+    "image": "https://raw.githubusercontent.com/DevAimar8/UNIP/main/UNIP.png",
+    "sameAs": [
+      "https://github.com/DevAimar8",
+      "https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302/"
+    ],
+    "jobTitle": "Desarrollador Full-Stack y DAM",
+    "alumniOf": "Ciclo DAM Melilla",
+    "worksFor": "Fincamel SL",
+    "knowsAbout": [
+      "Desarrollo web",
+      "Big Data",
+      "Inteligencia Artificial",
+      "Java",
+      "Flutter",
+      "Python"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Portfolio de Aimar Esqueta Albert",
+    "url": "https://aimar-portfolio.vercel.app/"
+  }
+  </script>
+
   <link rel="stylesheet" href="styles.css" />
   <script defer src="main.js"></script>
 </head>
 <body data-theme="light">
   <header class="hero">
     <div class="container">
-      <h1>Hola, soy Aimar Esqueta👋</h1>
-      <p class="subtitle">Desarrollador Full-Stack y apasionado de la IA y el Big Data</p>
-      <nav class="main-nav">
+      <h1>Hola, soy Aimar Esqueta Albert 👋</h1>
+      <p class="subtitle">Desarrollador Full-Stack | Web | Apps | Big Data | IA</p>
+      <nav class="main-nav" aria-label="Navegación principal">
         <ul class="nav-menu">
           <li><a href="#about">Sobre mí</a></li>
           <li><a href="#skills">Tecnologías</a></li>
@@ -23,15 +87,15 @@
       </nav>
       <div class="social-links">
         <a href="https://github.com/DevAimar8" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" alt="GitHub"> GitHub
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" height="24" alt="GitHub de Aimar Esqueta"> GitHub
         </a>
         <a href="https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302/" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" alt="LinkedIn"> LinkedIn
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" height="24" alt="LinkedIn de Aimar Esqueta"> LinkedIn
         </a>
       </div>
-    </div>
-    <div class="cv-button">
-      <a href="CV AIMAR ESQUETA ALBERT.pdf" download class="btn-cv">Descargar CV</a>
+      <div class="cv-button">
+        <a href="CV AIMAR ESQUETA ALBERT.pdf" download class="btn-cv">Descargar CV</a>
+      </div>
     </div>
   </header>
 
@@ -39,29 +103,29 @@
     <section id="about" class="about container will-fade">
       <h2>Sobre mí</h2>
       <p>
-        Soy un desarrollador entusiasta especializado en el desarrollo web y multiplataforma. Actualmente me estoy formando en Big Data e Inteligencia Artificial. Me encanta crear proyectos que combinan tecnología y propósito real.
+        Soy <strong>Aimar Esqueta Albert</strong>, desarrollador Full-Stack y especialista en desarrollo web y multiplataforma (<b>DAM</b>), con enfoque en <strong>Big Data</strong> e <strong>Inteligencia Artificial</strong>. Me apasiona crear soluciones tecnológicas útiles y visualmente atractivas. Si buscas <b>ideas para portfolio web DAM</b> o ejemplos de proyectos reales, ¡inspírate aquí!
       </p>
     </section>
 
     <section id="skills" class="skills container will-fade">
       <h2>🔧 Tecnologías</h2>
       <ul class="tech-list">
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="24"> Java</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="24"> Flutter</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="24"> Dart</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"> Python</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="24"> Firebase</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24"> HTML</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24"> CSS</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24"> JavaScript</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="24"> MySQL</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="24"> SQLite</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24"> Git</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24"> GitHub</li>
-        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24"> Docker</li>
-        <li><img src="https://img.icons8.com/ios-filled/24/000000/csv.png" width="24"> CSV</li>
-        <li><img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="24"> HuggingFace</li>
-        <li><img src="https://img.icons8.com/color/24/000000/power-bi.png" width="24"> Power BI</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="24" height="24" alt="Java"> Java</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="24" height="24" alt="Flutter"> Flutter</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="24" height="24" alt="Dart"> Dart</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24" height="24" alt="Python"> Python</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="24" height="24" alt="Firebase"> Firebase</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24" height="24" alt="HTML5"> HTML5</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24" height="24" alt="CSS3"> CSS3</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24" height="24" alt="JavaScript"> JavaScript</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="24" height="24" alt="MySQL"> MySQL</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="24" height="24" alt="SQLite"> SQLite</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24" height="24" alt="Git"> Git</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" height="24" alt="GitHub"> GitHub</li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24" height="24" alt="Docker"> Docker</li>
+        <li><img src="https://img.icons8.com/ios-filled/24/000000/csv.png" width="24" height="24" alt="CSV"> CSV</li>
+        <li><img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="24" height="24" alt="HuggingFace"> HuggingFace</li>
+        <li><img src="https://img.icons8.com/color/24/000000/power-bi.png" width="24" height="24" alt="Power BI"> Power BI</li>
       </ul>
     </section>
 
@@ -72,53 +136,53 @@
           <h3>Programador Full-Stack – Coanfi</h3>
           <span>(Marzo 2025 - Junio 2025 → Prácticas)</span>
         </div>
-        <p>
-          → Desarrollo de apps internas con  PowerApps para mejorar la productividad empresarial.<br>
-          → Visualización y análisis de grandes volúmenes de datos utilizando Power BI y SQL Server Management Studio.<br>
-          → Creación y mantenimiento de procedimientos almacenados para optimizar el rendimiento de consultas complejas en bases de datos.<br>
-          → Automatización de tareas rutinarias mediante scripts en JavaScript y estructuras en JSON.<br>
-          → Diseño de flujos de trabajo eficientes mediante diagramas BPMN en BIC Process Design.<br>
-          → Participación activa en la optimización de procesos empresariales mediante soluciones low-code y análisis de datos.
-        </p>
+        <ul>
+          <li>Desarrollo de apps internas con PowerApps para mejorar la productividad empresarial.</li>
+          <li>Visualización y análisis de grandes volúmenes de datos con Power BI y SQL Server Management Studio.</li>
+          <li>Creación y mantenimiento de procedimientos almacenados para optimizar consultas complejas.</li>
+          <li>Automatización de tareas mediante JavaScript y JSON.</li>
+          <li>Diseño de flujos de trabajo eficientes con diagramas BPMN en BIC Process Design.</li>
+          <li>Optimización de procesos mediante soluciones low-code y análisis de datos.</li>
+        </ul>
       </div>
       <div class="job-block">
         <div class="job-header">
           <h3>Desarrollador Web – Fincamel SL</h3>
           <span>(Junio 2025 - Actualidad → Freelance)</span>
+        </div>
+        <ul>
+          <li>Diseño y desarrollo de la página web oficial de Fincamel SL con HTML, CSS y JavaScript.</li>
+          <li>Mejoras UX y accesibilidad.</li>
+          <li>Integración de formulario de contacto funcional.</li>
+          <li>Despliegue y mantenimiento usando GitHub Pages (acceso 24/7 sin coste extra).</li>
+          <li>Responsive design para compatibilidad móvil.</li>
+        </ul>
       </div>
-      <p>
-        → Diseño y desarrollo de la página web oficial de Fincamel SL utilizando tecnologías HTML, CSS y JavaScript.<br>
-        → Implementación de mejoras para optimizar la experiencia de usuario y la accesibilidad.<br>
-        → Integración de sección de contacto: formulario de contacto funcional para facilitar la comunicación con los visitantes.<br>
-        → Despliegue: publicación y mantenimiento del sitio web usando GitHub Pages, asegurando acceso 24/7 sin costes adicionales de alojamiento.<br>
-        → Integración de funcionalidades responsive para asegurar compatibilidad con dispositivos móviles.
-      </p>
-    </div>
     </section>
 
     <section id="projects" class="projects container will-fade">
       <h2>Proyectos destacados</h2>
       <div class="project-grid">
         <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/UNIP/main/UNIP.png" alt="UNIP">
+          <img src="https://raw.githubusercontent.com/DevAimar8/UNIP/main/UNIP.png" width="300" height="180" alt="UNIP, app Flutter de orientación vocacional">
           <h3>UNIP</h3>
           <p>App Flutter para orientación vocacional. Test interactivo, buscador y comunidad.</p>
           <a href="https://github.com/DevAimar8/UNIP" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
         </div>
         <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/FincamelillaSL/main/fincamel-1.webp" alt="Fincamel SL">
+          <img src="https://raw.githubusercontent.com/DevAimar8/FincamelillaSL/main/fincamel-1.webp" width="300" height="180" alt="Fincamel SL, web corporativa">
           <h3>Fincamel SL</h3>
-          <p>Página web oficial de Fincamel SL</p>
-          <a href="https://github.com/DevAimar8/VAARI" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+          <p>Página web oficial de Fincamel SL.</p>
+          <a href="https://github.com/DevAimar8/FincamelillaSL" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
         </div>
         <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/VAARI/main/VAARI.png" alt="VAARI">
+          <img src="https://raw.githubusercontent.com/DevAimar8/VAARI/main/VAARI.png" width="300" height="180" alt="VAARI, app de gestión de centros">
           <h3>VAARI</h3>
-          <p>App web de control de ancianos en centros de día y residencias de ancianos con un asistente técnico</p>
+          <p>App web de control de ancianos en centros de día y residencias con asistente técnico.</p>
           <a href="https://github.com/DevAimar8/VAARI" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
         </div>
         <div class="project-card">
-          <img src="https://raw.githubusercontent.com/DevAimar8/VisualizadorPersonajes-OnePiece/main/onepiece.png" alt="One Piece Viewer">
+          <img src="https://raw.githubusercontent.com/DevAimar8/VisualizadorPersonajes-OnePiece/main/onepiece.png" width="300" height="180" alt="Visualizador One Piece, app personajes anime">
           <h3>Visualizador One Piece</h3>
           <p>Visualización interactiva de personajes de One Piece.</p>
           <a href="https://github.com/DevAimar8/VisualizadorPersonajes-OnePiece" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
@@ -136,9 +200,12 @@
   <footer class="footer">
     <div class="container">
       <p class="footer-quote">“La creatividad es la inteligencia divirtiéndose.”</p>
-      <p>Desarrollado por Aimar Esqueta © 2025</p>
+      <p>Desarrollado por <strong>Aimar Esqueta Albert</strong> © 2025</p>
+      <nav aria-label="Navegación legal">
+        <a href="https://aimar-portfolio.vercel.app/" rel="nofollow">Portfolio</a>
+        <!-- Añade aquí privacidad, aviso legal, etc. si los tienes -->
+      </nav>
     </div>
   </footer>
-
 </body>
 </html>
